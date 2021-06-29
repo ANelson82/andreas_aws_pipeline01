@@ -1,0 +1,11 @@
+{
+  "params": {
+      "querystring": {
+          "param1": "test"
+      },
+      "context": {
+          "http-method": "GET",
+          "resource-path": "/hello"
+      }
+  }
+}

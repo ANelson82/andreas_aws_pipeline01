@@ -2,10 +2,10 @@ import pandas as pd
 import requests
 
 # URL of your endpoint
-URL = "https://xxxxxx.execute-api.us-east-1.amazonaws.com/prod/hello"
+URL = "https://zdkjaen9e9.execute-api.us-east-2.amazonaws.com/P/hello"
 
 #read the testfile
-data = pd.read_csv('TestSample.csv', sep = ',')
+data = pd.read_csv('datasample.csv', sep = ',')
 
 # write a single row from the testfile into the api
 #export = data.loc[2].to_json()
